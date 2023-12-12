@@ -16,9 +16,8 @@ weasel.custom.yaml
 
 ```yaml
 patch:
-  style:
-    horizontal: true
-    color_scheme: example
+  "style/color_scheme": luna
+  "style/horizontal": true
   preset_color_schemes:
     example:
       name: example
