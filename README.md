@@ -7,9 +7,7 @@ patch:
   schema_list:
     - { schema: rime_ice }
     - { schema: double_pinyin_flypy }
-  ascii_composer:
-    switch_key:
-      Shift_L: noop
+  "ascii_composer/switch_key/Shift_L": noop
 ```
 
 weasel.custom.yaml
