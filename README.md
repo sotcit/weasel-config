@@ -8,6 +8,7 @@ patch:
     - { schema: rime_ice }
     - { schema: double_pinyin_flypy }
   "ascii_composer/switch_key/Shift_L": noop
+  "menu/page_size": 10
 ```
 
 weasel.custom.yaml
