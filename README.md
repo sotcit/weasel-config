@@ -7,8 +7,8 @@ patch:
   schema_list:
     - { schema: rime_ice }
     - { schema: double_pinyin_flypy }
-  "ascii_composer/switch_key/Shift_L": noop
   "menu/page_size": 10
+  "ascii_composer/switch_key/Shift_L": noop
 ```
 
 weasel.custom.yaml
@@ -17,6 +17,7 @@ weasel.custom.yaml
 patch:
   "style/color_scheme": example
   "style/horizontal": true
+  "style/inline_preedit": true
   "preset_color_schemes/example":
     author: example
     back_color: 0xF9F9F9
