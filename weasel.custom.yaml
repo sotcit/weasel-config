@@ -3,6 +3,13 @@ patch:
   "style/color_scheme": example
   "style/horizontal": true
   "style/inline_preedit": true
+  app_options:
+    powertoys.powerlauncher.exe:
+      ascii_mode: true
+    powershell.exe:
+      ascii_mode: true
+    windowsterminal.exe:
+      ascii_mode: true
   "preset_color_schemes/example":
     author: example
     back_color: 0xF9F9F9
