@@ -10,6 +10,10 @@ patch:
       ascii_mode: true
     windowsterminal.exe:
       ascii_mode: true
+    acmirage.exe:
+      ascii_mode: true
+    acvalhalla.exe:
+      ascii_mode: true
   "preset_color_schemes/example":
     author: example
     back_color: 0xF9F9F9
