@@ -2,6 +2,9 @@ patch:
   schema_list:
     - { schema: rime_ice }
     - { schema: double_pinyin_flypy }
-  "menu/page_size": 10
-  "ascii_composer/switch_key/Shift_L": noop
-  "ascii_composer/switch_key/Control_L": commit_code
+  switcher/hotkeys:
+    - Control+grave
+  menu/page_size: 10
+  ascii_composer/switch_key/Shift_L: noop
+  key_binder/bindings/+:
+    - { when: always, accept: Shift+space, toggle: ascii_mode }
