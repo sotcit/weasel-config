@@ -15,6 +15,7 @@ patch:
     acvalhalla.exe:
       ascii_mode: true
   "preset_color_schemes/example":
+    name: example
     author: example
     back_color: 0xF9F9F9
     border_color: 0xF9F9F9
@@ -34,7 +35,6 @@ patch:
     hilited_shadow_color: 0x00000000
     hilited_text_color: 0x000000
     label_color: 0x000000
-    name: example
     nextpage_color: 0x00000000
     prevpage_color: 0x00000000
     shadow_color: 0x00000000
